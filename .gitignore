@@ -1,0 +1,8 @@
+# Environment files (keep your API keys private)
+.env
+
+# Python cache
+__pycache__/
+
+# Virtual environment
+venv/
