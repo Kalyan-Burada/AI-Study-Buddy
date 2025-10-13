@@ -10,5 +10,5 @@ load_dotenv(dotenv_path=Path(__file__).resolve().parent / ".env")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY")
 
 # App configuration
-APP_TITLE = "AI-Powered Study Buddy"
-APP_ICON = "📚"
+APP_TITLE = "AI-Driven Study Assistant"
+APP_ICON = "📒"
