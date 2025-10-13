@@ -25,7 +25,7 @@ st.markdown("""
     body {
         font-family: 'Inter', sans-serif;
         background-color: #1b1e23;
-        color: ##FFFFFF;
+        color: #FFFFFF;
     }
     
     .stApp {
@@ -76,7 +76,7 @@ st.markdown("""
 
     /* Customizing the Streamlit Radio button labels and colors */
     .st-emotion-cache-1xw2e8g label {
-        color: #f0f4f8 !important;
+        color: #FFFFFF !important;
         font-weight: 600;
     }
 
@@ -151,7 +151,7 @@ st.markdown("""
     }
     
     .ai-message {
-        background: #f0f4f8;
+        background: #FFFFFF;
         border-left: 4px solid #FF5722;
         margin-right: 20%;
         border-top-left-radius: 5px;
@@ -207,7 +207,7 @@ st.markdown("""
     }
     
     .st-emotion-cache-163j0c0 {
-        color: #f0f4f8;
+        color: #FFFFFF;
     }
     
 </style>
@@ -323,7 +323,7 @@ if mode == "🎯 Smart Study Planner":
                                 st.markdown(f"**🏆 Milestones:**")
                                 for milestone in week['milestones']:
                                     st.markdown(f"- {milestone}")
-                        
+                                
                         # Resources
                         st.markdown("### 📒 Recommended Resources")
                         for resource in plan_data['resources']:
